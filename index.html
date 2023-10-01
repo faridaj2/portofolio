@@ -1,0 +1,358 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/tailwind.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="tailwind.config.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+</head>
+
+<body class="bg-black">
+    <div x-data="app">
+        <div class="flex flex-col md:flex-row gap-5 md:min-h-screen items-center">
+            <div class="mx-3 mt-2 md:w-1/2 md:order-2" data-aos="fade-left">
+                <h6 class="text-xs tracking-widest text-primary">ABOUT PERSONAL</h6>
+                <h1 class="text-2xl md:text-2xl lg:text-3xl mt-3 font-bold tracking-wide">Hello, Im <span
+                        id="type"></span></h1>
+                <h1 class="text-primary font-bold text-5xl tracking-wide">Farid</h1>
+                <div class="h-1 rounded w-24 my-7 bg-primary"></div>
+                <p class="text-xs leading-relaxed text-primary">Saya adalah seorang web developer yang berpengalaman di
+                    bidang frontend dan backend. Saya sangat menikmati membuat website yang menarik dan mudah digunakan.
+                </p>
+                <div class="signature text-5xl my-10 text-primary">Achmad Farid <span class="hidden">Anjali</span></div>
+                <div class="text-primary flex gap-x-7 text-2xl">
+                    <a href="">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 md:h-96 lg:min-h-screen lg:my-4 md:order-1 w-full px-3" data-aos="fade-right">
+
+                <img src="./img/farid.jpg" class="md:object-center rounded">
+
+            </div>
+        </div>
+        <div class=" bg-gradient-to-l from-secondary to-secondaryDark mt-5">
+
+            <div
+                class="flex items-center justify-center gap-x-10 my-5 px-5 text-primary py-5 flex-wrap gap-y-5 lg:h-52">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                        viewBox="0 0 100 100">
+                        <path
+                            d="M51.958,98c-0.58,0-1.16-0.078-1.724-0.232l-27.742-7.702c-2.593-0.72-4.495-3.004-4.735-5.685	l-6.179-69.304c-0.16-1.813,0.451-3.621,1.677-4.962C14.485,8.77,16.233,8,18.053,8h67.895c1.821,0,3.569,0.771,4.798,2.115	c1.225,1.339,1.837,3.147,1.677,4.959L86.236,84.37c-0.24,2.683-2.145,4.967-4.739,5.686l-27.803,7.709	C53.124,97.921,52.542,98,51.958,98z"
+                            opacity=".35"></path>
+                        <path fill="#f2f2f2"
+                            d="M49.958,96c-0.58,0-1.16-0.078-1.724-0.232l-27.742-7.702c-2.593-0.72-4.495-3.004-4.735-5.685	L9.578,13.077c-0.16-1.813,0.451-3.621,1.677-4.962C12.485,6.77,14.233,6,16.053,6h67.895c1.821,0,3.569,0.771,4.798,2.115	c1.225,1.339,1.837,3.147,1.677,4.959L84.236,82.37c-0.24,2.683-2.145,4.967-4.739,5.686l-27.803,7.709	C51.124,95.921,50.542,96,49.958,96z">
+                        </path>
+                        <polygon fill="#2b59a1"
+                            points="83.947,12.5 77.762,81.792 49.958,89.5 22.231,81.803 16.053,12.5">
+                        </polygon>
+                        <path fill="#40396e"
+                            d="M49.958,91c-0.135,0-0.27-0.019-0.401-0.055L21.83,83.249c-0.602-0.167-1.037-0.689-1.093-1.312	l-6.179-69.303c-0.037-0.419,0.104-0.835,0.388-1.146C15.23,11.177,15.632,11,16.053,11h67.895c0.421,0,0.822,0.177,1.106,0.488	c0.284,0.311,0.425,0.726,0.388,1.146l-6.186,69.292c-0.056,0.622-0.491,1.145-1.094,1.312l-27.804,7.709	C50.228,90.982,50.093,91,49.958,91z M23.634,80.635l26.324,7.309l26.402-7.32L82.308,14H17.692L23.634,80.635z">
+                        </path>
+                        <polygon fill="#2785bd" points="72.467,77.38 77.771,17.957 50,17.957 50,83.608"></polygon>
+                        <polygon fill="#d9eeff" points="50,43.957 51,47.957 50,51.957 30.94,51.957 30.23,43.957">
+                        </polygon>
+                        <polygon fill="#d9eeff" points="50,26.957 51,30.957 50,34.957 29.441,34.957 28.72,26.957">
+                        </polygon>
+                        <polygon fill="#d9eeff"
+                            points="51,69.957 50,74.796 32.55,69.967 31.39,56.957 39.92,56.957 40.5,63.397 50,65.957">
+                        </polygon>
+                        <path fill="#f2f2f2"
+                            d="M50,26.957v8h11.969l-0.807,9H50c-0.009-0.002-0.008,8-0.008,8h10.485l-1.027,11.44L50,65.957v8.84	l17.4-4.83l0.12-1.44l2-22.37l0.21-2.29l1.5-16.91H50z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                        <path fill="#6c19ff"
+                            d="M6.391,10.671c-0.085-2.448,1.822-4.706,4.401-4.706h26.42c2.578,0,4.486,2.258,4.401,4.706	c-0.082,2.352,0.024,5.398,0.791,7.882c0.769,2.492,2.066,4.067,4.19,4.269v2.295c-2.124,0.202-3.421,1.777-4.19,4.269	c-0.767,2.484-0.873,5.53-0.791,7.882c0.085,2.448-1.822,4.706-4.401,4.706h-26.42c-2.578,0-4.486-2.258-4.4-4.706	c0.082-2.352-0.025-5.398-0.791-7.882c-0.769-2.492-2.069-4.067-4.194-4.269v-2.295c2.124-0.202,3.425-1.777,4.194-4.269	C6.367,16.07,6.473,13.023,6.391,10.671z">
+                        </path>
+                        <linearGradient id="Is-EGaxKcc0Cic9QMqyzGa_EzPCiQUqWWEa_gr1" x1="17.846" x2="27.078"
+                            y1="-147.541" y2="-163.153" gradientTransform="matrix(1 0 0 -1 0 -132)"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#fff"></stop>
+                            <stop offset="1" stop-color="#f1e5fc"></stop>
+                        </linearGradient>
+                        <path fill="url(#Is-EGaxKcc0Cic9QMqyzGa_EzPCiQUqWWEa_gr1)"
+                            d="M25.042,34.016c4.366,0,6.997-2.138,6.997-5.664c0-2.665-1.877-4.595-4.665-4.9v-0.111	c2.048-0.333,3.655-2.235,3.655-4.359c0-3.026-2.389-4.997-6.03-4.997h-8.192v20.031H25.042z M19.994,16.525h4.238	c2.304,0,3.612,1.027,3.612,2.887c0,1.985-1.522,3.096-4.281,3.096h-3.57V16.525z M19.994,31.475v-6.594h4.21	c3.015,0,4.579,1.11,4.579,3.276c0,2.165-1.522,3.318-4.394,3.318H19.994z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                        <path fill="#00acc1"
+                            d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 64 64">
+                        <path fill="orange"
+                            d="M10.814,11.264l3.267,37.028c0.142,1.608,1.237,2.974,2.776,3.462l11.784,3.734	c2.185,0.692,4.531,0.692,6.716,0l11.784-3.734c1.539-0.488,2.634-1.853,2.776-3.462l3.267-37.028C53.34,9.51,51.958,8,50.197,8	H13.803C12.042,8,10.66,9.51,10.814,11.264z">
+                        </path>
+                        <path
+                            d="M47.142,51.753c1.539-0.488,2.634-1.853,2.776-3.462l1.434-16.255 c-2.739-0.248-5.177,1.79-5.42,4.541l-0.878,9.946c-0.035,0.402-0.309,0.743-0.694,0.865l-7.704,2.441 c-2.469,0.782-4.09,3.28-3.565,5.816c0.021,0.101,0.061,0.191,0.087,0.289c0.736-0.078,1.467-0.223,2.18-0.449L47.142,51.753z"
+                            opacity=".15"></path>
+                        <path fill="#fff"
+                            d="M10.814,11.264l2.182,24.731c0.865-0.079,1.761-0.417,2.691-1.397 c1.317-1.388,1.912-3.315,1.744-5.221l-1.349-15.288C16.031,13.503,16.492,13,17.079,13H23c2.761,0,4.997-2.239,4.997-5H13.803 C12.042,8,10.659,9.51,10.814,11.264z"
+                            opacity=".3"></path>
+                        <path fill="#ffce29"
+                            d="M32,15v33.334c0,1.333,1.28,2.293,2.56,1.92l9.204-2.682c0.793-0.231,1.363-0.927,1.433-1.75	l2.618-30.652c0.1-1.167-0.821-2.17-1.993-2.17H34C32.895,13,32,13.895,32,15z">
+                        </path>
+                        <path fill="#fff"
+                            d="M32,33v-5h9.928c0.58,0,1.038,0.491,0.998,1.069l-0.9,12.986c-0.028,0.405-0.298,0.753-0.684,0.88	L32,46.021v-5.325l5.179-1.775l0.379-5.898L32,33z M43.312,22.075l0.227-2.999C43.584,18.495,43.124,18,42.542,18H32l-0.014,4.986	l10.328,0.013C42.837,23,43.273,22.597,43.312,22.075z">
+                        </path>
+                        <path fill="#eee"
+                            d="M32,40.716v5.305l-9.344-3.075c-0.384-0.126-0.654-0.472-0.685-0.875l-0.375-4.99	c-0.044-0.58,0.415-1.075,0.997-1.075h3.057c0.519,0,0.952,0.397,0.996,0.914l0.174,2.027L32,40.716z M25.811,22.991H32v-4.982	H21.566c-0.575,0-1.032,0.484-0.998,1.059l0.766,13.001c0.031,0.529,0.469,0.941,0.998,0.941H32v-5.006h-5.811L25.811,22.991z">
+                        </path>
+                        <ellipse cx="32" cy="61" opacity=".3" rx="20" ry="3"></ellipse>
+                        <polyline fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-miterlimit="10" stroke-width="3" points="14.857,17.256 14.349,11.5 19.067,11.5">
+                        </polyline>
+                    </svg>
+                </div>
+                <div>
+                    <img width="48" height="48" src="https://img.icons8.com/fluency/48/laravel.png" alt="laravel" />
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                        <polygon fill="#81c784" points="23.987,17 18.734,8 2.974,8 23.987,44 45,8 29.24,8"></polygon>
+                        <polygon fill="#455a64" points="29.24,8 23.987,17 18.734,8 11.146,8 23.987,30 36.828,8">
+                        </polygon>
+                    </svg>
+
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
+                        <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+                        <path fill="#000001"
+                            d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z">
+                        </path>
+                    </svg>
+                </div>
+                <div>
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACz0lEQVR4nK1VS2sUQRCeJCY+k52uTYzRiIgnDxEfeBF84OOkggEXBJWIO11rIjkoSPSga/wDgnjJxYDBnaqSRIkSERHBgxclKHoQH6CiXvQQVEQSdKVnZ7OzM7vJJqSgYaa7+quqrx5tWbOUFhxeZM2ZJKQu+Gsj7bewr3ZOsOOaNreekoXBPYU0NDu0dLo6+BvruGUrzZeLwSUGSGNh3WnFdtytVkJqisA0XzQruNd85PpiQPoHjrRXDN6ItBGQz4f3FdIzhdQb3gfNo6D55aqO/gXToyekBpBf2I67r/ggW6U0/QSkGxHDmg4BchaQR6zukfllsdOP5lmQkoNGOebI+uLDdDUgjytNn8PU5aKgvpwReqVQ9gZ1DI1epZnqU5puGkWF0hYBQfpgzuJIB6LuZasUyhmF9MO7b6LVPOrT+rCpS5blQT7mQNxdESqQ+v3Lb8rx3ZAUAEeOgZYLCuUspGRPUcSg6Y8fwenwZVvLdp/rLGgaMF5bMxWl6XfOAN8vdQ6a7uWNKM3XvMRVKJB01xqA976HE6rTXRlWih/PLFdIXwORPLGTmXVTQ3v56QRNu00OuOAhXS0ZJUqbQv5SMMJ/QfOw7dDhBnTXeHMJ+2rNN6Qk6Sf6Ui4MR9oD3k00OrKplJFGHGwB5DuTumWWodx4X7iZkDpA/hZQeG1mULngbaRtpvlA86dcI3q9MGaoA6T00mSmuQQF1Bvy5HFTlyyZmmdfKhl65vEA5HfFofJTcAZbrVkKpGRF/cmh+OSG4T5fsoGcfI9rOTrT+o+dyGwwjRc5MAMv33jFhnjUVEz44YkAO7Jaab4Cmp9D90BDSaV4yt0RTDoEaUP+pZAfmEdIIffYmrpA0zlv8JkR7unQW9M7U4boN9fQdCUZjZQGzItXMZdKu1u8aVuKtsIaB6S7cUd2Vgwcjeh2vZm2uS7lHm9pSplRUJZrX/4DZB6zPLmIgTIAAAAASUVORK5CYII=">
+                </div>
+
+            </div>
+        </div>
+        <div class="mt-10 mx-3">
+            <h1 class="tracking-widest text-primary text-center my-4">What We Can Do</h1>
+            <div class="h-1 w-24 bg-primary rounded m-auto"></div>
+            <div class="mt-5 flex flex-col md:flex-row gap-3 justify-center">
+                <div class="flex flex-col max-w-sm bg-secondary p-8 hover:bg-primary transition group"
+                    data-aos="zoom-in-down">
+                    <h1 class="font-bold text-primary group-hover:text-slate-800">UI DESIGN</h1>
+                    <p class="text-xs font-light text-slate-400 mt-4 group-hover:text-slate-800">Lorem ipsum dolor, sit
+                        amet consectetur
+                        adipisicing
+                        elit. Pariatur,
+                        sequi?</p>
+                    <button class="grow-0 text-left mt-4 text-xs tracking-widest group-hover:text-slate-800">Read More
+                        ...</button>
+                </div>
+                <div class="flex flex-col max-w-sm bg-secondary p-8 hover:bg-primary transition group"
+                    data-aos="zoom-in-up">
+                    <h1 class="font-bold text-primary group-hover:text-slate-800">UI DESIGN</h1>
+                    <p class="text-xs font-light text-slate-400 mt-4 group-hover:text-slate-800">Lorem ipsum dolor, sit
+                        amet consectetur
+                        adipisicing
+                        elit. Pariatur,
+                        sequi?</p>
+                    <button class="grow-0 text-left mt-4 text-xs tracking-widest group-hover:text-slate-800">Read More
+                        ...</button>
+                </div>
+                <div class="flex flex-col max-w-sm bg-secondary p-8 hover:bg-primary transition group"
+                    data-aos="zoom-in-down">
+                    <h1 class="font-bold text-primary group-hover:text-slate-800">UI DESIGN</h1>
+                    <p class="text-xs font-light text-slate-400 mt-4 group-hover:text-slate-800">Lorem ipsum dolor, sit
+                        amet consectetur
+                        adipisicing
+                        elit. Pariatur,
+                        sequi?</p>
+                    <button class="grow-0 text-left mt-4 text-xs tracking-widest group-hover:text-slate-800">Read More
+                        ...</button>
+                </div>
+
+            </div>
+            <div class="mt-24">
+                <div class="flex flex-col md:flex-row items-center gap-20 md:mx-5 lg:max-w-screen-md lg:mx-auto">
+                    <div class="flex flex-col items-center ">
+                        <h1 class="text-9xl font-bold text-primary">12</h1>
+                        <h3 class="font-bold tracking-widest text-lg md:text-xs">YEARS EXPERIENCE</h3>
+                    </div>
+                    <div class="flex flex-wrap items-center justify-center gap-3 w-full">
+                        <div class="flex flex-col items-center bg-secondary p-8 w-[47%] shrink-0 grow-1 hover:bg-primary transition hover:text-slate-800 group"
+                            data-aos="zoom-in-right">
+                            <h1 class="text-6xl text-primary font-bold group-hover:text-slate-800">12+</h1>
+                            <h3 class="font-bold tracking-widest text-md mt-3">Clients</h3>
+                        </div>
+                        <div class="flex flex-col items-center bg-secondary p-8 w-[47%] shrink-0 grow-1 hover:bg-primary transition hover:text-slate-800 group"
+                            data-aos="zoom-in-left">
+                            <h1 class="text-6xl text-primary font-bold group-hover:text-slate-800">12+</h1>
+                            <h3 class="font-bold tracking-widest text-md mt-3">Clients</h3>
+                        </div>
+                        <div class="flex flex-col items-center bg-secondary p-8 w-[47%] shrink-0 grow-1 hover:bg-primary transition hover:text-slate-800 group"
+                            data-aos="zoom-in-right">
+                            <h1 class="text-6xl text-primary font-bold group-hover:text-slate-800">12+</h1>
+                            <h3 class="font-bold tracking-widest text-md mt-3">Clients</h3>
+                        </div>
+                        <div class="flex flex-col items-center bg-secondary p-8 w-[47%] shrink-0 grow-1 hover:bg-primary transition hover:text-slate-800 group"
+                            data-aos="zoom-in-left">
+                            <h1 class="text-6xl text-primary font-bold group-hover:text-slate-800">12+</h1>
+                            <h3 class="font-bold tracking-widest text-md mt-3">Clients</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-24">
+                <div class="max-w-screen-xl mx-auto">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <h1 class="tracking-widest text-primary font-bold">FEATURED PROJECTS</h1>
+                            <p class="text-xs tracking-widest text-slate-400 font-light">Lorem, ipsum dolor.</p>
+                        </div>
+                        <button class="bg-secondary hover:bg-primary hover:text-slate-800 text-white py-2 px-7">View
+                            All</button>
+                    </div>
+                    <div class="mt-10 flex gap-14 flex-wrap items-center justify-between">
+                        <div class="w-full md:w-[45%]">
+                            <div class="h-96 w-full bg-secondary flex items-center justify-center">
+                                <figure class="overflow-hidden h-[80%] w-full px-5">
+                                    <img src="https://i.pinimg.com/564x/dd/0d/e3/dd0de3b19fe9b46543a09ce6252390f0.jpg"
+                                        alt="" class="w-full shadow-lg">
+                                </figure>
+                            </div>
+                            <h1 class="tracking-wide text-xl text-primary font-bold mt-4">Lorem ipsum dolor sit amet.
+                            </h1>
+                            <p class="text-xs text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Modi ducimus minima similique at quia corrupti fugit magni pariatur harum ad.</p>
+                        </div>
+                        <div class="w-full md:w-[45%]">
+                            <div class="h-96 w-full bg-secondary flex items-center justify-center">
+                                <figure class="overflow-hidden h-[80%] w-full px-5">
+                                    <img src="https://i.pinimg.com/564x/3c/3e/bd/3c3ebdbf72bd6263522fc8155e22c24a.jpg"
+                                        alt="" class="w-full shadow-lg">
+                                </figure>
+                            </div>
+                            <h1 class="tracking-wide text-xl text-primary font-bold mt-4">Lorem ipsum dolor sit amet.
+                            </h1>
+                            <p class="text-xs text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Sequi cumque ut
+                                labore culpa
+                                quisquam maxime.</p>
+                        </div>
+                        <div class="w-full md:w-[45%]">
+                            <div class="h-96 w-full bg-secondary flex items-center justify-center">
+                                <figure class="overflow-hidden h-[80%] w-full px-5">
+                                    <img src="https://i.pinimg.com/564x/dd/0d/e3/dd0de3b19fe9b46543a09ce6252390f0.jpg"
+                                        alt="" class="w-full shadow-lg">
+                                </figure>
+                            </div>
+                            <h1 class="tracking-wide text-xl text-primary font-bold mt-4">Lorem ipsum dolor sit amet.
+                            </h1>
+                            <p class="text-xs text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Sequi cumque ut
+                                labore culpa
+                                quisquam maxime.</p>
+                        </div>
+                        <div class="w-full md:w-[45%]">
+                            <div class="h-96 w-full bg-secondary flex items-center justify-center">
+                                <figure class="overflow-hidden h-[80%] w-full px-5">
+                                    <img src="https://i.pinimg.com/564x/dd/0d/e3/dd0de3b19fe9b46543a09ce6252390f0.jpg"
+                                        alt="" class="w-full shadow-lg">
+                                </figure>
+                            </div>
+                            <h1 class="tracking-wide text-xl text-primary font-bold mt-4">Lorem ipsum dolor sit amet.
+                            </h1>
+                            <p class="text-xs text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Sequi cumque ut
+                                labore culpa
+                                quisquam maxime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 w-full bg-gradient-to-l from-secondary to-secondaryDark">
+                <div class="max-w-screen-xl mx-auto ">
+                    <div class="w-full py-10 flex flex-col md:flex-row md:items-center">
+                        <div class="w-full md:w-2/3">
+                            <h1 class="text-primary font-bold text-xl md:text-2xl">Let's work together on your next
+                                project</h1>
+                            <p class="text-xs mt-5 text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Dolorum nemo
+                                asperiores qui!
+                                Adipisci, ullam dolorem blanditiis reiciendis quis dolorum vero!</p>
+                        </div>
+                        <div class="w-1/3 md:flex md:justify-end">
+                            <button
+                                class="bg-primary text-slate-800 px-3 py-2 mt-5 hover:bg-black hover:text-white">Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script>
+        const app = {
+            menu: ['Home', 'Menu', 'Blogs', 'Showcase'],
+            activeMenu: "Home",
+            buka: true
+        }
+
+    </script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1500, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+        var typed = new Typed('#type', {
+            strings: ["Achmad.", "FrontEnd Dev.", "BackEnd Dev."],
+            typeSpeed: 30,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
